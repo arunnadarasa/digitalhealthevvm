@@ -38,3 +38,6 @@ claudestuff/
 # TypeScript compilation
 dist/
 tsconfig.tsbuildinfo
+
+# Frontend has its own repo (digitalhealthevvm-frontend)
+frontend/.git/
