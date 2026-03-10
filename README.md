@@ -12,6 +12,25 @@
 
 A compact toolkit for creating virtual EVM chains on testnets.
 
+---
+
+## Digital Health EVVM — OpenClaw Clinical Hackathon
+
+This fork includes a concrete EVVM deployment for the **OpenClaw Clinical Hackathon**:
+
+- **EVVM instance:** Digital Health EVVM (EVVM ID **1143**)
+- **Network:** Base Sepolia testnet (chain ID 84532)
+- **Core address:** `0xfE6Ad61c4d93366c79a1406bfE8838A11cF53734`
+- **Principal token:** **Digital Health MATE (DHM)**
+- **Frontend:** [`digitalhealthevvm-frontend`](https://github.com/arunnadarasa/digitalhealthevvm-frontend)
+- **Hackathon site:** [`https://clinicalhackathon.com/`](https://clinicalhackathon.com/)
+
+This repository, together with the frontend, acts as a **starter template for OpenClaw Clinical Hackathon participants** to explore nanopayments using digital currencies between different OpenClaw Agents on top of EVVM.
+
+> **Disclaimer:** This is an educational prototype and is not affiliated with or endorsed by any healthcare provider or government body.
+
+---
+
 Two ways to use EVVM:
 
 1. As a library - Import Solidity contracts in your dApp
