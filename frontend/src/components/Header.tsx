@@ -64,9 +64,20 @@ export function Header() {
                 </button>
               )}
               {chainId === CHAIN_ID && (
-                <span className="btn btn-chain" style={{ cursor: "default" }}>
+                <a
+                  href={chainConfig.explorer}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="btn btn-chain chain-explorer-link"
+                  title="Open Base Sepolia block explorer"
+                  onClick={(e) => {
+                    e.preventDefault();
+                    e.stopPropagation();
+                    window.open(chainConfig.explorer, "_blank", "noopener,noreferrer");
+                  }}
+                >
                   {chainConfig.name}
-                </span>
+                </a>
               )}
               <div className="wallet-balance-row">
                 <span className="eth-balance" title="Base Sepolia ETH">
